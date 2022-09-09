@@ -1,10 +1,10 @@
 <h1 align="center">Google Summer of Code 2022 <img src="https://media2.giphy.com/media/KB8MHRUq55wjXVwWyl/source.gif" width="50"></h1>
 
-<p align="center"><i>A full report on my Google Summer of Code 2022 work with FOSSology</i></p>
-<p align="center"><i>Project: "REST API and UI improvements" </i>  👨‍💻</p>
+<p align="center"><i>A full report on Google Summer of Code 2022 @ FOSSology</i></p>
+<p align="center"><i>Project: "REST API and UI improvements" </i> </p>
 
 <p align="center">
-        <img src="https://64.media.tumblr.com/c93f16953341ab06acd12b493659bdee/tumblr_mr68hhmVE11r5ikx8o1_400.gif" width="100">
+        <img src="https://media4.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif?cid=ecf05e473b7q8jrsthrdeqzcg6nn08t7jwnsu7m8xcvuuv6c&rid=giphy.gif" width="200">
 </p>
 
 ![image](https://user-images.githubusercontent.com/66276301/188962690-5869b53c-99bb-4012-b13f-443832568f7e.png)
@@ -16,9 +16,9 @@
 ![Twitter](https://img.shields.io/twitter/follow/dushimsam?style=social)
 ![GitHub Stars](https://img.shields.io/github/stars/dushimsam/GSoC-2022?style=social) -->
 
-A brief introduction about myself 👩‍💻
+A brief introduction about myself 
 
-I am **Soham Banerjee**, a Computer Science and engineering student at RCCIIT Kolkata. I have been a frontend developer and have been working for many organisations since the past 2 years. Have been an open source software enthusiast since I was introduced to it and, I am greatful to be a part of FOSSology under the GSOC programme 2022.  
+I am **Soham Banerjee**, a Computer Science and engineering student at RCCIIT Kolkata. I have been a frontend developer and have been working for many organisations since the past 2 years. Have been an open source software enthusiast since I was introduced to it and, I am grateful to be a part of FOSSology under the GSOC programme 2022.  
 
 In this article I am going to outline the details of my contributions as a reference of project completion during the entire duration of GSOC 2022.
 
@@ -51,20 +51,20 @@ Final UI of the All Recent jobs page after the discussions looks like: <br/>
 
 ![Screenshot from 2022-06-24 10-10-47](/img/reactUI/alljobs_ui_sample.png)
 
-### PR link - [feature(ui): /allRecentJobs page completed](https://github.com/fossology/FOSSologyUI/pull/223)
+### 👨‍💻 PR link - [feature(ui): /allRecentJobs page completed](https://github.com/fossology/FOSSologyUI/pull/223)
 
 ### My Recent Jobs Page
 
 The same API endpoint was used in My Recent Jobs page and the logged in user's UID was fetched from the `getUserSelf()` function.
 `MDBReact` table was used here and this requires change to the same UI as of `/allRecentJobs` page.
 
-### PR link - [feature(ui): /myRecentJobs page completed](https://github.com/fossology/FOSSologyUI/pull/228)
+### 👨‍💻 PR link - [feature(ui): /myRecentJobs page completed](https://github.com/fossology/FOSSologyUI/pull/228)
 
 ## Search in Browse Page
 
 There was a search-bar present in the Browse page but, there was no function implented to make the search work. Thus introduced a search function which filters the API response as per the query data and only renders the value which is asked by the user.
 
-### PR link - [fix(browse): search bar function implemented ](https://github.com/fossology/FOSSologyUI/pull/230)
+### 👨‍💻 PR link - [fix(browse): search bar function implemented ](https://github.com/fossology/FOSSologyUI/pull/230)
 
 
 
@@ -84,7 +84,7 @@ The All Recent Jobs page with the new Pagination module: <br/>
 The Module also contains a text box so that user can directly navigate to that particular page at once.
 This was suggested by one of the mentors and was implemented after.
 
-### PR link - [feat(ui): horizontal pagination added in allRecentJobs](https://github.com/fossology/FOSSologyUI/pull/235)
+### 👨‍💻 PR link - [feat(ui): horizontal pagination added in allRecentJobs](https://github.com/fossology/FOSSologyUI/pull/235)
 
 ## /jobs API
 
@@ -104,7 +104,7 @@ Implementation of the horizontal page navigator in the browse page. The paginati
 The Browse page with the new Pagination module: <br/>
 ![pagination](/img/reactUI/browse_pagination.png)
 
-### PR link - [feat(ui): Pagination in Browse page](https://github.com/fossology/FOSSologyUI/pull/237)
+### 👨‍💻 PR link - [feat(ui): Pagination in Browse page](https://github.com/fossology/FOSSologyUI/pull/237)
 
 ## /jobs API
 
@@ -131,7 +131,7 @@ The API response when the requesting user is an Admin: <br/>
 The API response when the requesting user is Not an Admin: <br/>
 ![nonAdmin_response](/img/reactUI/nonAdmin_response.png)
 
-### PR link - [feat(api): jobs/all endpoint added](https://github.com/fossology/fossology/pull/2260)
+### 👨‍💻 PR link - [feat(api): jobs/all endpoint added](https://github.com/fossology/fossology/pull/2260)
 
 ## New endpoint for geting copyright details
 
@@ -283,7 +283,7 @@ The API response when requested on a upload (used Nirjas repository here): <br/>
 
 The requested URL for getting the response is: `localhost/repo/api/v1/uploads/<UPLOAD_ID>/copyrights`
 
-### PR link - [feat(api): new endpoint for geting copyright details](https://github.com/fossology/fossology/pull/2273)
+### 👨‍💻 PR link - [feat(api): new endpoint for geting copyright details](https://github.com/fossology/fossology/pull/2273)
 
 ## All jobs only accessible by admin
 
@@ -295,7 +295,7 @@ Admin veiw:<br/>
 Non-Admin View:<br/>
 ![non_adimin_veiw](/img/reactUI/non_admin_view.jpeg)
 
-### PR link - [feat(ui): All jobs only accessible by admin](https://github.com/fossology/FOSSologyUI/pull/245)
+### 👨‍💻 PR link - [feat(ui): All jobs only accessible by admin](https://github.com/fossology/FOSSologyUI/pull/245)
 
 ## Clearing Decisions endpoint added and in progress
 
@@ -307,7 +307,7 @@ Was able to return the latest clearing status for each upload ID and return it i
 
 ![api_res](/img/reactUI/api_clearing_decision.jpeg)
 
-### PR link - [feat(api): clearing status](https://github.com/fossology/fossology/pull/2288)
+### 👨‍💻 PR link - [feat(api): clearing status](https://github.com/fossology/fossology/pull/2288)
 
 # License browser page updated
 
@@ -316,7 +316,7 @@ Current status of the License browser page:
 
 ![api_res](/img/reactUI/licenses_edited.jpeg)
 
-### PR link - [fix(licenses): header fixed and limit for responses removed](https://github.com/fossology/FOSSologyUI/pull/246)
+### 👨‍💻 PR link - [fix(licenses): header fixed and limit for responses removed](https://github.com/fossology/FOSSologyUI/pull/246)
 
 ## `uploads/<uploadID>/licenses` endpoint completed
 
@@ -414,7 +414,7 @@ ORDER BY lft asc
   }
 ```
 
-### PR link - [feat(api): clearing status](https://github.com/fossology/fossology/pull/2288)
+### 👨‍💻 PR link - [feat(api): clearing status](https://github.com/fossology/fossology/pull/2288)
 
 ## Download file using UploadID
 
@@ -423,7 +423,7 @@ Current status of the Download API response:
 
 ![api_res](/img/reactUI/download_response.png)
 
-### PR link - [feat(api): Download file using UploadID](https://github.com/fossology/fossology/pull/2309)
+### 👨‍💻 PR link - [feat(api): Download file using UploadID](https://github.com/fossology/fossology/pull/2309)
 
 ## Fix failing tests due to lint errors
 
@@ -433,7 +433,7 @@ Worked on finding failing tests and linting issues.
 
 found issues on the file `openapi.yaml` and fixed them
 
-### PR link - [fix(lint): openapi lint corrected](https://github.com/fossology/fossology/pull/2311)
+### 👨‍💻 PR link - [fix(lint): openapi lint corrected](https://github.com/fossology/fossology/pull/2311)
 
 ## Started with UI integration for clearing status
 
@@ -441,6 +441,10 @@ Started with the implementation of UI for the clearing statuses:
 Currently finished indexing the images as follows:
 
 ![index](/img/reactUI/indexing.png)
+
+## Started with UI integration for Download operation for uploaded files
+
+Started with the implementation of UI for the downloading process. The backend for this ready and [merged](https://github.com/fossology/fossology/pull/2309) 
 
 
 ## Documentation:📄
